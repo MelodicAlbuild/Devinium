@@ -1,0 +1,83 @@
+{
+  "items": [
+    {
+      "item_name": "TomasOre",
+      "stack_size": 64,
+      "name": "Tomas Ore",
+      "description": "Used in production to produce base components",
+      "guid": "6939388A466C45B899EEF83634EEA6C6",
+      "base_item": "TitaniumOre",
+      "icon_path": "Resources/Ore/Tomas.png"
+    },
+    {
+      "item_name": "TomasIngot",
+      "stack_size": 64,
+      "name": "Tomas Ingot",
+      "description": "Used in production to produce base components",
+      "guid": "E7A58DCB81D74C29853DC144C1172380",
+      "base_item": "TitaniumIngot",
+      "icon_path": "Resources/Ingots/TomasIngot.png"
+    },
+    {
+      "item_name": "OndrejOre",
+      "stack_size": 64,
+      "name": "Ondrej Ore",
+      "description": "Used in production to produce base components",
+      "guid": "7EDD4C077CC245D3AEAB53F678388C1A",
+      "base_item": "TitaniumOre",
+      "icon_path": "Resources/Ore/Ondrej.png"
+    },
+    {
+      "item_name": "OndrejIngot",
+      "stack_size": 64,
+      "name": "Ondrej Ingot",
+      "description": "Used in production to produce base components",
+      "guid": "22F140C417EF41858711EF73E4319411",
+      "base_item": "TitaniumIngot",
+      "icon_path": "Resources/Ingots/OndrejIngot.png"
+    }
+  ],
+  "recipes": [
+    {
+      "recipe_name": "CobaltIngotRecipe",
+      "input_amount": 1,
+      "inputs": [
+        {
+          "input_name": "TomasOre",
+          "input_amount": 2
+        }
+      ],
+      "output": [
+        {
+          "output_name": "TomasIngot",
+          "output_amount": 1
+        }
+      ],
+      "base_recipe": "TitaniumIngotRecipe",
+      "itemID": "66A6E0D5D3EA4F37A7E8C8B8494EBEAB",
+      "required_items": [
+        ""
+      ],
+      "recipe_category": "CraftingRefineryTier1"
+    }
+  ],
+  "deposits": [
+    {
+      "underground": false,
+      "percent_replace": 100,
+      "output_name": "TomasOre",
+      "yields": [
+        2, 
+        5 
+      ],
+      "replaced_item": "TitaniumOre"
+    }
+  ],
+  "categories": [
+    {
+      "category_type": "recipe",
+      "name": "ForgeTier3",
+      "guid": "DF5145974CB54D7F972367F70CA75099"
+    }
+  ]
+}
