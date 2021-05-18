@@ -39,7 +39,7 @@
   ],
   "recipes": [
     {
-      "recipe_name": "CobaltIngotRecipe",
+      "recipe_name": "TomasIngotRecipeWorktable",
       "input_amount": 1,
       "inputs": [
         {
@@ -59,6 +59,72 @@
         ""
       ],
       "recipe_category": "CraftingRefineryTier1"
+    },
+    {
+      "recipe_name": "OndrejIngotRecipeWorktable",
+      "input_amount": 1,
+      "inputs": [
+        {
+          "input_name": "OndrejOre",
+          "input_amount": 2
+        }
+      ],
+      "output": [
+        {
+          "output_name": "OndrejIngot",
+          "output_amount": 1
+        }
+      ],
+      "base_recipe": "TitaniumIngotRecipe",
+      "itemID": "8ABFD21FE5E04B5BBD73FDBDE18DC223",
+      "required_items": [
+        ""
+      ],
+      "recipe_category": "CraftingRefineryTier1"
+    },
+    {
+      "recipe_name": "TomasIngotRecipe",
+      "input_amount": 1,
+      "inputs": [
+        {
+          "input_name": "TomasOre",
+          "input_amount": 2
+        }
+      ],
+      "output": [
+        {
+          "output_name": "TomasIngot",
+          "output_amount": 1
+        }
+      ],
+      "base_recipe": "TitaniumIngotRecipe",
+      "itemID": "63C913F31ABA496F8D767941CFA16D64",
+      "required_items": [
+        ""
+      ],
+      "recipe_category": "RefinementTier1"
+    },
+    {
+      "recipe_name": "OndrejIngotRecipe",
+      "input_amount": 1,
+      "inputs": [
+        {
+          "input_name": "OndrejOre",
+          "input_amount": 2
+        }
+      ],
+      "output": [
+        {
+          "output_name": "OndrejIngot",
+          "output_amount": 1
+        }
+      ],
+      "base_recipe": "TitaniumIngotRecipe",
+      "itemID": "4FC23C26D4EA4D9E86BBD07BD930B131",
+      "required_items": [
+        ""
+      ],
+      "recipe_category": "RefinementTier1"
     }
   ],
   "deposits": [
@@ -67,10 +133,20 @@
       "percent_replace": 100,
       "output_name": "TomasOre",
       "yields": [
-        2, 
-        5 
+        2,
+        5
       ],
       "replaced_item": "TitaniumOre"
+    },
+    {
+      "underground": false,
+      "percent_replace": 100,
+      "output_name": "OndrejOre",
+      "yields": [
+        2,
+        5
+      ],
+      "replaced_item": "SulfurOre"
     }
   ],
   "categories": [
